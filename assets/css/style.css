@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    padding: 2%;
+    background-color: royalblue;
+    color: white;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 175%;
+}
