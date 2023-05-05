@@ -13,9 +13,18 @@ header {
     color: white;
 }
 
+section {
+    display: block;
+}
+
 h1 {
     font-size: 200%;
 }
+
+img {
+    width: 20%;
+    border-radius: 20%;
+  }
 
 h2 {
     font-size: 175%;
