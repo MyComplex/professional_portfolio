@@ -1,44 +1,22 @@
-:root {
-    --font-color: ghostwhite;
-}
-
 * {
-    box-sizing: border-box;
-}
-
-body {
-    display: flex;
-    flex-wrap: wrap;
-    line-height: 1.5;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px black solid;
 }
 
 header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: right;
-    padding: 2%;
-    background-color: royalblue;
-    color: white;
+    background-color: bisque;
 }
 
-section {
-    display: block;
+header h1 {
+    margin: 0;
+    background-color: pink;
 }
 
-h1 {
-    font-size: 200%;
+header nav {
+    margin: 0;
+    background-color: azure;
 }
 
-img {
-    width: 20%;
-    border-radius: 20%;
-  }
-
-h2 {
-    font-size: 175%;
+header nav ul {
+    text-align: right;
 }
