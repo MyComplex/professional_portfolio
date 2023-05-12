@@ -22,12 +22,17 @@ header {
     background-color: #7bb2fb;
 }
 
+header img {
+    width: 30%;
+    border: 5px #fff solid;
+    border-radius: 50%;
+}
+
 .headerh1s {
     display: inline-block;
     padding: var(--header-h1-pad);
     font-size: var(--header-h1-font-size);
 }
-
 
 .headerh1sd {
     background-color: #2c492f;
