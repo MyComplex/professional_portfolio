@@ -5,79 +5,96 @@
 }
 
 body {
-    background-color: #78444a;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #eaeaea;
+    background-color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-image: url(../images/background.png);
-    background-size: cover;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-header img {
-    height: 20vh;
-    margin: 15px;
-    border: 5px #78444a solid;
-    border-radius: 50%
-}
-
-header div {
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background: linear-gradient(to right, #23538a 0%,#a7cfdf 100%);
 }
 
-header div h1 {
+header figure {
+    margin: 5px;
     padding: 10px;
-    font-size: 38px;
     flex-grow: 1;
+}
+
+header figure img {
+    border: 5px white solid;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+header figure figcaption {
+    width: 100%;
+    background-color: gray;
+    border: 5px white solid;
+    border-radius: 10px;
     text-align: center;
 }
 
-.darkh1 {
-    border-right: 0;
-    background-color: #eaeaea;
-    color: #1b4552;
+header figure figcaption strong {
+    color: #fff;
+    font-size: 32px;
 }
 
-.lighth1 {
-    border-left: 0px;
-    background-color: #1b4552;
-    color: #eaeaea;
-}
-
-header div nav {
-    background: linear-gradient(to right, #1b4552 0%, #53737b 50%);
-    text-align: end;
+header nav {
+    text-align: center;
     display: block;
-    padding: 20px;
-    font-size: 24px;
-    flex-grow: 40;
+    margin: 5px;
+    padding: 10px;
+    flex-grow: 10;
 }
 
-header div nav a {
-    color: #eaeaea;
-}
+/* header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+} */
 
-main aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: left;
-    width: 28%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-main aside h2 {
+header nav ul li {
+    /* flex-grow: 1;
+    width: 70%;
+    margin: 15px; */
+    display: inline-block;
+    list-style: none;
+    padding-right: 5%;
 
 }
 
-main aside p {
-    color: black;
-    font-size: 18px;
+header nav ul li a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration-thickness: 3px;
+}
+
+header nav ul li a:hover {
+    color: darkslateblue;
+}
+
+p {
+    font-size: 16px;
+}
+
+main {
+    
+    background-image: url(../images/background.png);
+    background-size: cover;
+    width: 100%;
+}
+
+/* 
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .float-left {
