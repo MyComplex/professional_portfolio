@@ -5,15 +5,18 @@
 }
 
 body {
-    background-color: darkolivegreen;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/44/Las_Vegas_Skyline_Graphic.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    background: linear-gradient(to right, #23538a 0%,#a7cfdf 100%);
 }
 
 header figure {
@@ -23,6 +26,7 @@ header figure {
 }
 
 header figure img {
+    width: 200px;
     border: 5px white solid;
     border-radius: 50%;
     margin: auto;
@@ -50,16 +54,7 @@ header nav {
     flex-grow: 10;
 }
 
-/* header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-} */
-
 header nav ul li {
-    /* flex-grow: 1;
-    width: 70%;
-    margin: 15px; */
     display: inline-block;
     list-style: none;
     padding-right: 5%;
@@ -76,25 +71,81 @@ header nav ul li a:hover {
     color: darkslateblue;
 }
 
-p {
-    font-size: 16px;
-}
-
 main {
-    
-    background-image: url(../images/background.png);
-    background-size: cover;
-    width: 100%;
+    min-height: 70vh;
 }
 
-/* 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+aside {
+    background-color: #2589bd;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    /* margin-right: 20px; */
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 21%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+aside img {
+    width: 200px;
+    border: 5px red solid;
+    border-radius: 15px;
+}
+
+aside h1 {
+    color: red;
+}
+
+aside P {
+    font-style: monospace;
+}
+
+aside article {
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside article img {
+    border-radius: 50%;
+}
+
+aside article h2 {
+    color: blueviolet;
+}
+
+aside article p {
+    color: orange;
+}
+
+section {
+    background-color: blue;
+}
+
+section h2 {
+    color: white;
+}
+
+section p {
+    color: aqua;
+}
+
+section article {
+    background-color: burlywood;
+}
+
+section article img {
+    border-radius: 50%;
+}
+
+section article h3 {
+    color: cornflowerblue;
+}
+
+section article p {
+    color: deeppink;
 }
 
 .float-left {
@@ -114,16 +165,9 @@ main {
 }
 
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
 }
 
+/* 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
