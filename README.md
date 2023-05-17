@@ -12,7 +12,7 @@
 Build a professional protfolio of work showcasing talents and techniques.
 
 ## Site Capture
-![sitecap](./assets/images.sitecap.gif)
+![sitecap](./assets/images/sitecap.gif)
 
 ## Live Website
 
