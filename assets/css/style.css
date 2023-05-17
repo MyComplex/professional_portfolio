@@ -15,7 +15,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    padding: 30px;
+    margin-right: 300px;
 }
 
 header figure {
@@ -67,7 +67,7 @@ header nav ul li a {
     text-decoration-thickness: 10%;
 }
 
-header nav ul li a:hover {
+a:hover {
     color: darkslateblue;
 }
 
@@ -79,6 +79,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: 500px;
 }
 
 /* Section selectors */
@@ -96,6 +97,11 @@ section {
 .content {
     width: 70%;
     padding: 10px;
+}
+
+.indent {
+    margin-left: 30px;
+    font-style: italic;
 }
 
 div {
@@ -120,78 +126,29 @@ div {
     background-color: gray;
 }
 
-/* Aside selectors */
-aside {
-    /* position: relative; */
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 30px;
-    margin-top: -150px;
-    background-color: gray;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 200px;
-    font-family: monospace;
-}
-
-aside img {
-    width: 90%;
-    border-radius: 15px;
-}
-
-aside h2 {
-    text-decoration: underline;
-    font-weight: bolder;
-    font-size: xx-large;
-}
-
-aside P {
-    margin-bottom: 10px;
-}
-
-aside article {
-    text-align: center;
-    background-color: greenyellow;
-    padding: 10px;
-    margin: 10px;
-}
-
-aside article img {
-    border: 5px purple solid;
-    width: 40%;
-    border-radius: 50%;
-}
-
-aside article h2 {
-    color: blueviolet;
-}
-
-aside article p {
-    color: orange;
-}
-*/
-
 /* Footer selectors */
 footer {
     display: flex;
-    align-items: flex-end;
-    padding: 30px;
-    clear: both;
-    text-align: center;
 }
 
 footer address {
-    background-color: crimson;
     color: aqua;
     text-align: center;
     font-style: normal;
+    margin: 20px;
+}
+
+footer address a {
+    color: white;
+}
+
+footer address h3 {
+    margin-top: 10px;
 }
 
 footer address ul {
     list-style: none;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -199,6 +156,10 @@ footer address ul {
 footer address ul li img {
     margin: 20px;
     width: 25px;
+}
+
+.emphasize {
+    text-size: 1.25em;
 }
 
 /* Media query selectors */
