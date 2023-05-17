@@ -6,27 +6,25 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/44/Las_Vegas_Skyline_Graphic.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
+    color: white;
 }
 
+/* Header selectors */
 header {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
+    padding: 30px;
 }
 
 header figure {
     margin: 5px;
     padding: 10px;
-    flex-grow: 1;
 }
 
 header figure img {
-    width: 200px;
+    width: 50%;
     border: 5px white solid;
     border-radius: 50%;
     margin: auto;
@@ -34,16 +32,18 @@ header figure img {
 }
 
 header figure figcaption {
-    width: 100%;
+    width: 80%;
     background-color: gray;
     border: 5px white solid;
     border-radius: 10px;
     text-align: center;
+    margin: auto;
+    display: block;
 }
 
 header figure figcaption strong {
     color: #fff;
-    font-size: 32px;
+    font-size: 1.67em;
 }
 
 header nav {
@@ -64,32 +64,32 @@ header nav ul li {
 header nav ul li a {
     color: white;
     font-size: 1.5em;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 10%;
 }
 
 header nav ul li a:hover {
     color: darkslateblue;
 }
 
+/* Main selectors */
 main {
-    min-height: 70vh;
+    min-height: 40vh;
 }
 
+/*
 aside {
-    background-color: #2589bd;
+    background-color: gray;
     padding: 10px;
     margin-left: 25px;
     padding: 20px;
     clear: both;
     float: left;
-    width: 21%;
+    width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 aside img {
     width: 200px;
-    border: 5px red solid;
     border-radius: 15px;
 }
 
@@ -102,12 +102,15 @@ aside P {
 }
 
 aside article {
+    text-align: center;
     background-color: greenyellow;
     padding: 10px;
     margin: 10px;
 }
 
 aside article img {
+    border: 5px purple solid;
+    width: 50%;
     border-radius: 50%;
 }
 
@@ -118,33 +121,56 @@ aside article h2 {
 aside article p {
     color: orange;
 }
+*/
 
+/* Section selectors */
 section {
-    background-color: blue;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: rgb(27, 27, 172); */
+    /* color: white; */
+    /* width: 70%; */
 }
 
-section h2 {
-    color: white;
+.heading {
+    text-align: end;
+    width: 15%;
+    padding: 10px;
+    /* border-bottom: 5px white dashed; */
+    /* color: black; */
 }
 
-section p {
-    color: aqua;
+.content {
+    width: 70%;
+    /* border-left: 5px white dashed; */
+    padding: 10px;
+    /* color: aqua; */
 }
 
-section article {
-    background-color: burlywood;
+div {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 5px white dashed; */
 }
 
-section article img {
-    border-radius: 50%;
+.projimg {
+    margin: 10px;
+    width: 400px;
+    border: 5px orange solid;
 }
 
-section article h3 {
-    color: cornflowerblue;
+figcaption {
+    position: absolute;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: -100px;
+    text-align: center;
+    border: 5px orange solid;
+    background-color: gray;
 }
-
-section article p {
-    color: deeppink;
+/*
+.ucbxbcpsg {
+    border: 5px black solid;
 }
 
 .float-left {
@@ -163,7 +189,6 @@ section article p {
     margin-left: 20px;
 }
 
-/* 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -265,14 +290,63 @@ section article p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
-} */
+footer address {
+    background-color: crimson;
+    color: aqua;
+}
+
+footer address h4 {
+    color: yellow;
+}
+
+footer address ul {
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+footer address ul li {
+    font-family: cursive;
+}
+
+footer address ul li img {
+    width: 15%;
+}
+
+/*
+@media screen and (max-width: 1124px) {
+    aside {
+        width: 95%;
+        margin-right: 10px;
+    }
+
+    aside figure img {
+        width: 25%;
+        border: 3px blue solid;
+    }
+
+    aside article h2 {
+        font-size: 16px;
+    }
+}
+*/
+
+@media screen and (max-width: 1367px) {
+    .content {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1368px) {
+    .content {
+        width: 867px;
+    }
+}
