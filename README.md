@@ -3,12 +3,16 @@
 ## Table of Contents
 
 - [Scope of Work](#scope-of-work)
+- [Site Capture](#site-capture)
 - [Live Website](#live-website)
 - [Copyright](#copyright)
 
 ## Scope of Work
 
 Build a professional protfolio of work showcasing talents and techniques.
+
+## Site Capture
+![sitecap](./assets/images.sitecap.gif)
 
 ## Live Website
 
